@@ -64,7 +64,7 @@ body{
 }
 
 .logo .fa-bolt {
-  color: #49eef7;
+  color: #d82023;
   font-size: 19.5px;
   position: absolute; 
   top: 60%;
@@ -95,10 +95,10 @@ body{
   display: block;
 }
 .header ul li a.active{
-  color: #49eef7;
+  color: #d82023;
 } 
 .header ul li a:hover{
-  color:#49eef7;
+  color:#d82023;
 }
 .header .menu_icon{
   color:#fff;
@@ -124,9 +124,9 @@ body{
 .FirstElement .profile-photo{
   width: 300px;
   height:  300px;
-  border-radius: 10%;
+  border-radius: 50%;
   overflow: hidden;
-  border: 5px solid #49eef7;
+  border: 10px solid #d82023;
   box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5)
 }
 profile-photo .img{
@@ -147,7 +147,7 @@ profile-photo .img{
   font-size: 14px;
 }
 .profile-text h1{
-  color: #49eef7;
+  color: #d82023;
   font-size: 3rem; 
 }
 .profile-text p{
@@ -160,7 +160,7 @@ profile-photo .img{
   transition: 0.5s;
 }
 .profile-text .social i:hover{
-  color:#49eef7;
+  color:#d82023;
   transform: rotate(360deg);
 }
 
@@ -182,7 +182,7 @@ profile-photo .img{
   flex-basis: 90%;
 }
 .about-content h4{
-  color: #49eef7;
+  color: #d82023;
   font-size: 30px;
   line-height: 90px;
   text-align: justify;
@@ -232,7 +232,7 @@ profile-photo .img{
   box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
 }
 .btn.active{
-  border-color: #49eef7;
+  border-color: #d82023;
 }
 
 
@@ -246,7 +246,7 @@ profile-photo .img{
 }
 
 .education-content .title{
-  color: #49eef7;
+  color: #d82023;
 }
 .education-content .row .education,
 .education-content .row .internship
@@ -293,7 +293,7 @@ profile-photo .img{
   height: 100%;
   left: 7px;
   top: 0;
-  background-color: #49eef7;  
+  background-color: #d82023;  
 }
 .education-content .row .circle-dot{
   position: absolute;
@@ -331,7 +331,7 @@ profile-photo .img{
 #experience h4 {
   font-size: 40px;
   text-transform: uppercase;
-  color: #49eef7;
+  color: #d82023;
   text-align: center;
   margin-bottom: 50px;
   position: relative;
@@ -343,7 +343,7 @@ profile-photo .img{
   display: block;
   width: 80px;
   height: 3px;
-  background: #49eef7;
+  background: #d82023;
   margin: 10px auto 0;
   border-radius: 2px;
 }
@@ -382,12 +382,12 @@ profile-photo .img{
   position: absolute;
   left: 0;
   top: 0;
-  color: #49eef7;
+  color: #d82023;
   font-size: 22px;
 }
 
 #experience ul li:hover {
-  color: #49eef7;
+  color: #d82023;
   transform: translateX(5px);
 }
 
@@ -428,7 +428,7 @@ profile-photo .img{
 #competences h2 {
     font-size: 2.5rem;
     margin-bottom: 50px;
-    color: #49eef7;
+    color: #d82023;
     position: relative;
 }
 
@@ -437,7 +437,7 @@ profile-photo .img{
     display: block;
     width: 80px;
     height: 3px;
-    background: #49eef7;
+    background: #d82023;
     margin: 10px auto 0;
     border-radius: 2px;
 }
@@ -468,7 +468,7 @@ profile-photo .img{
 
 .skill-card:hover {
     transform: translateY(-5px);
-    border-color: #49eef7;
+    border-color: #d82023;
     box-shadow: 0 0 15px rgba(98, 127, 133, 0.753);
 }
 
@@ -519,7 +519,7 @@ profile-photo .img{
   text-transform: uppercase;
   font-size: 40px;
   line-height: 40px;
-  color: #49eef7;
+  color: #d82023;
   margin-bottom: 20px;
 }
 .project-title p{
@@ -543,7 +543,7 @@ profile-photo .img{
     transition: .3s;
 }
 .project i{
-  background-color: #49eef7;
+  background-color: #d82023;
   width: 60px;
   height: 60px;
   color: #333;
@@ -560,7 +560,7 @@ profile-photo .img{
   text-align: justify;
 }
 .project:hover{
-  border-color: #49eef7;
+  border-color: #d82023;
 }
 
 
@@ -577,7 +577,7 @@ profile-photo .img{
 #certi h4 {
     font-size: 36px;
     text-transform: uppercase;
-    color: #49eef7;
+    color: #d82023;
     margin-bottom: 40px;
     position: relative;
 }
@@ -587,7 +587,7 @@ profile-photo .img{
     display: block;
     width: 80px;
     height: 3px;
-    background-color: #49eef7;
+    background-color: #d82023;
     margin: 10px auto 0;
     border-radius: 2px;
 }
@@ -607,7 +607,7 @@ profile-photo .img{
     background-color: #282828;
     color: #e5e5e5;
     border-radius: 10px;
-    border: 2px solid #49eef7;
+    border: 2px solid #d82023;
     padding: 20px;
     width: 100%;
     max-width: 600px; /* plus large pour images grandes */
@@ -629,7 +629,7 @@ profile-photo .img{
     height: auto;      /* conserve le ratio 1650x1275 */
     max-width: 500px;  /* limite maximale pour ne pas exploser sur grand écran */
     border-radius: 10px;
-    border: 2px solid #49eef7;
+    border: 2px solid #d82023;
     margin-bottom: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
 }
@@ -672,13 +672,13 @@ profile-photo .img{
   text-transform: uppercase;
   font-size: 40px;
   line-height: 40px;
-  color: #49eef7;
+  color: #d82023;
   margin-bottom: 20px;
 }
 
 #tb h4 {
     font-size: 40px;
-    color: #49eef7;
+    color: #d82023;
     text-transform: uppercase;
     margin-bottom: 40px;
 }
@@ -688,7 +688,7 @@ profile-photo .img{
     display: block;
     width: 80px;
     height: 3px;
-    background: #49eef7;
+    background: #d82023;
     margin: 10px auto 0;      /* Centre le trait sous le titre */
     border-radius: 2px;
 }
@@ -703,7 +703,7 @@ profile-photo .img{
     max-width: 60%;           /* Réduit la taille de l'image */
     height: auto;
     border-radius: 12px;
-    border: 2px solid #49eef7;
+    border: 2px solid #d82023;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     display: block;
     margin: 0 auto;           /* Centre l'image */
@@ -729,7 +729,7 @@ profile-photo .img{
 .contact-content .contact-title h4{
   font-size: 40px;
   text-transform: capitalize;
-  color: #49eef7;
+  color: #d82023;
   padding-bottom: 10px;
 }
 .contact-content .contact-title p{
@@ -748,7 +748,7 @@ profile-photo .img{
 
 .contact .submit{
   width: auto;
-  background-color: #49eef7;
+  background-color: #d82023;
   padding: 10px 40px;
   font-weight:bold ;
   font-size: 18px;
