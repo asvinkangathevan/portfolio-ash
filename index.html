@@ -30,7 +30,7 @@
                     <li><a href="#education">Formations</a></li>
                     <li><a href="#experiences">Expériences</a></li>
                     <li><a href="#certi">Certifications</a></li>
-                    <li><a href="#competence">Compétences </a></li>
+                    <li><a href="#competences">Competences </a></li>
                     <li><a href="#pro">Projets  </a></li>
                     <li><a href="#veille">Veille </a></li>
                     <li><a href="#tb">Tableau de synthèse </a></li>
@@ -47,7 +47,7 @@
     <!-------------------------- Home Page -------------------------->
     <div class="FirstElement" id="home">
         <div class="profile-photo">
-            <img src="image/AI.png" alt="profile picture">
+            <img src="image/ash.jpg" alt="profile picture">
         </div>
         <div class="profile-text">
             <h1>Ashwin KANGATHEVAN</h1><br>
@@ -178,8 +178,8 @@
                                         <li>Installation de système d'exploitation Windows</li>
                                         <li>Réparations MAC BOOK, PC</li>
                                         <li>Installation logicielles</li>
-                                        <li>Coneilles clientales</li>
-                                        <li>Mise à jour des logicielles</li>
+                                        <li>Conseilles clientales</li>
+                                        <li>Mise à jour des logiciels</li>
                                         
                                     </li>
                                 </div>
@@ -258,7 +258,7 @@
                     <h4>EXPERIENCES</h4>
                     <ul>
                         <p>2021–2023 : PFMP en maintenance informatique SMART LINE, Paris 75015</p>
-                       <p>2023–2024 : PFMP en maintenance informatique BESTOCAZ, Paris 75000</p>
+                        <p>2023–2024 : PFMP en maintenance informatique BESTOCAZ, Paris 75000</p>
                         <p>2024–2025 : PFMP en programmation WETRADE, Paris 75002</p>
                    </ul>
                 </div>
@@ -341,52 +341,136 @@
                     <ul>
                        <img src="tds/Tableau de synthèse pdf_page-0001.jpg" alt="">
                        <!----télécharger tableau de synthèse-->
-                     <a href="tds/ts.pdf" class="btn   active">Télécharger</a>
+                    
+                     <a href="tds/ts.pdf" class="btn btn-sm btn-telecharger">Télécharger</a>
+
                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-<!-------------------------- veille technologique -------------------------->
 
-    <section class="about-area" id="veille">
-        <div class="container">
-            <div class="about">
-                <div class="about-content">
-                    <h4>VEILLE TECHNOLOGIQUE</h4>
-                    <ul>
-                    <h3>Thème : Virtualisation</h3>   
-                     <br>
-                     <p>La virtualisation est une technologie que vous pouvez utiliser pour créer des représentations virtuelles de serveurs, de stockage, de réseaux et d'autres machines physiques. Le logiciel virtuel imite les fonctions du matériel physique pour exécuter plusieurs machines virtuelles sur une seule machine physique.</p>                   
-                    </br>
-                    <a href="tds/Veille Technologique.pdf" class="btn   active">Lire la veille technologique</a>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Section Veille Technologique : Virtualisation -->
+<section id="veille" class="about-area">
+  <div class="container">
+    <article class="about">
+
+      <h1>VEILLE TECHNOLOGIQUE</h1>
+      <h2>Thème : Virtualisation</h2>
+
+      <p>
+        La virtualisation permet de créer des environnements virtuels (machines virtuelles) qui
+        simulent des ressources matérielles (CPU, mémoire, stockage, réseau) afin d'exécuter
+        plusieurs systèmes et services isolés sur un seul serveur physique.
+      </p>
+
+      <p>
+        <a href="tds/Veille Technologique.pdf" class="btn active" aria-label="Lire la veille technologique">
+          Lire la veille technologique
+        </a>
+      </p>
+
+      <!-- Points clés -->
+      <section class="veille-points">
+        <h4>Points clés de la veille</h4>
+        <ul>
+          <li><strong>Évolution des hyperviseurs :</strong> nouveautés et versions (VMware ESXi, Hyper-V, KVM, Proxmox, VirtualBox).</li>
+          <li><strong>Optimisation des performances :</strong> gestion CPU/RAM, stockage virtualisé, I/O réseau.</li>
+          <li><strong>Sécurité :</strong> isolation des VMs, correctifs, vulnérabilités, chiffrement des disques.</li>
+          <li><strong>Cloud & hybridation :</strong> intégration des VM avec les clouds publics (AWS, Azure, GCP).</li>
+          <li><strong>Virtualisation légère :</strong> conteneurs vs machines virtuelles et cas d'usage hybrides.</li>
+          <li><strong>Automatisation :</strong> outils d'orchestration et d'infrastructure as code (Terraform, Ansible, vSphere API).</li>
+          <li><strong>Tendances marché :</strong> consolidation des serveurs, économie d'énergie et migration vers des architectures virtualisées).</li>
+        </ul>
+      </section>
+
+   <!-- Applications concrètes : Virtualisation -->
+<section class="veille-applications">
+  <h4>Applications concrètes pour la virtualisation</h4>
+  
+  <p>La virtualisation ajoute une couche supplémentaire entre le matériel et les systèmes d’exploitation. La sécurité et la maintenance doivent donc prendre en compte à la fois les <strong>hôtes physiques</strong>, les <strong>machines virtuelles (VM)</strong> et l’<strong>hyperviseur</strong>.</p>
+  
+  <ul>
+    <li>
+      <strong>Surveillance des disques virtuels et hôtes physiques :</strong>
+      <ul>
+        <li>Analyse SMART pour les disques physiques hébergeant des VM afin d’éviter la perte de données.</li>
+        <li>Vérification de l’intégrité des fichiers de machines virtuelles (.vmdk, .vhdx, etc.).</li>
+      </ul>
+    </li>
+    
+    <li>
+      <strong>Monitoring de la performance CPU/RAM et des ressources hyperviseur :</strong>
+      <ul>
+        <li>Suivi de la charge des VM pour éviter la saturation des hôtes physiques.</li>
+        <li>Détection des VM gourmandes ou mal configurées pouvant impacter d’autres machines virtuelles.</li>
+      </ul>
+    </li>
+    
+    <li>
+      <strong>Détection de patterns de défaillance dans les logs d’hyperviseur :</strong>
+      <ul>
+        <li>Analyse des journaux VMware, Hyper-V ou KVM pour détecter les erreurs d’allocation mémoire, les crashes de VM ou les problèmes réseau virtualisé.</li>
+      </ul>
+    </li>
+    
+    <li>
+      <strong>Prédiction de panne et planification de migration :</strong>
+      <ul>
+        <li>Anticipation des défaillances matérielles sur l’hôte pour migrer les VM automatiquement via vMotion, Live Migration ou outils similaires.</li>
+        <li>Prévention des interruptions de service et optimisation de la haute disponibilité (HA).</li>
+      </ul>
+    </li>
+    
+    <li>
+      <strong>Sécurité et isolation des VM :</strong>
+      <ul>
+        <li>Surveillance des VM pour détecter toute compromission ou comportement suspect.</li>
+        <li>Vérification des correctifs et mises à jour hyperviseur + VM pour réduire les vulnérabilités.</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+
+      <!-- Sources de veille -->
+      <section class="veille-sources">
+        <h4>Sources de veille recommandées</h4>
+
+        <p><strong>Blogs & éditeurs :</strong></p>
+        <ul>
+          <li><a href="https://blogs.vmware.com" target="_blank" rel="noopener">VMware Blog</a></li>
+          <li><a href="https://learn.microsoft.com" target="_blank" rel="noopener">Microsoft Learn / Hyper-V</a></li>
+          <li><a href="https://www.proxmox.com" target="_blank" rel="noopener">Proxmox</a></li>
+          <li><a href="https://www.redhat.com" target="_blank" rel="noopener">Red Hat (KVM)</a></li>
+        </ul>
+
+        <p><strong>Sécurité & vulnérabilités :</strong></p>
+        <ul>
+          <li><a href="https://cve.mitre.org" target="_blank" rel="noopener">MITRE CVE</a></li>
+          <li><a href="https://www.cert.ssi.gouv.fr" target="_blank" rel="noopener">CERT-FR</a></li>
+        </ul>
+
+        <p><strong>Outils de suivi & communautés :</strong></p>
+        <ul>
+          <li>Google Alerts, flux RSS des éditeurs</li>
+          <li>Forums : Proxmox, Stack Overflow, Reddit (<code>r/virtualization</code>)</li>
+          <li>Conférences : VMware Explore, Red Hat Summit</li>
+        </ul>
+      </section>
+
+      <!-- Footer / CTA -->
+      
+
+    </article>
+  </div>
+</section>
+
 
         <!-------------------------- Contact Me -------------------------->
 
-    <section class="contact-content" id="contact">
-        <div class="container">
-            <div class="contact-title">
-                <h4>Contact Me</h4>
-                <p>Get In Touch</p>
-            </div>
-            <div class="contact">
-                <form name="submitToGoogleSheet">
-                    <input type="text" name="NAME" placeholder="Name" required>
-                    <input type="email" name="EMAIL" placeholder="Email" required>
-                    <input type="text" name="SUBJECT" placeholder="Subject">
-                    <textarea name="MESSAGE" placeholder="Message"></textarea>
-                    <input type="submit" value="Send Message" class="submit">
-                </form>
-                <span id="msg"></span>
-            </div>
-        </div>
-    </section>
+   
         
     <!-------------------------- JS -------------------------->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
