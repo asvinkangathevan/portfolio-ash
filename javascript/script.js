@@ -7,6 +7,8 @@ $(document).ready(function() {
       } else {
         $(".header-area").removeClass("sticky");
       }
+    });
+
   
       // Update the active section in the header
       updateActiveSection();
@@ -63,6 +65,14 @@ $(document).ready(function() {
     ScrollReveal().reveal(".projects, .contact", {
       origin: "bottom"
     });
+    ScrollReveal().reveal(".experience", {
+      origin: "bottom"
+    });
+    ScrollReveal().reveal(".experience .about-content", {
+      origin: "left",
+      distance: "200px"
+    });
+    ScrollReveal().reveal("v", {
 
   //contact form to excel sheet
   const scriptURL = 'https://script.google.com/macros/s/AKfycbzUSaaX3XmlE5m9YLOHOBrRuCh2Ohv49N9bs4bew7xPd1qlgpvXtnudDs5Xhp3jF-Fx/exec';
@@ -125,6 +135,7 @@ $(document).ready(function() {
 
 
   }
+  
   
 
  
