@@ -420,14 +420,14 @@ body{
   text-align: center;
 }
 
-#competences h4 {
+#competences h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
   color: #d82023;
   position: relative;
 }
 
-#competences h4::after {
+#competences h2::after {
   content: "";
   display: block;
   width: 80px;
